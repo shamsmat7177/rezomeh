@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رزومه شهریار شمسی</title>
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet">
+<style>
+  :root{ --navy:#1f3a5f; --navy-light:#2e5580; --gray:#555; --line:#d0d7de; --bg-soft:#f6f8fa; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:'Vazirmatn',Tahoma,sans-serif; background:#e9edf2; color:#222; line-height:1.75; font-size:14px; padding:24px; direction:rtl; }
+  .page{ max-width:800px; margin:0 auto; background:#fff; padding:40px 44px; border-radius:10px; box-shadow:0 6px 24px rgba(0,0,0,.08); }
+  header{ text-align:center; padding-bottom:16px; border-bottom:3px solid var(--navy); margin-bottom:22px; }
+  .avatar{ width:120px; height:120px; border-radius:50%; object-fit:cover; border:4px solid #fff; box-shadow:0 0 0 3px var(--navy),0 4px 14px rgba(0,0,0,.15); margin:0 auto 12px; display:block; background:#dfe6ee; }
+  header h1{ font-size:26px; font-weight:800; color:var(--navy); letter-spacing:.5px; }
+  header .role{ font-size:14px; color:var(--navy-light); font-weight:600; margin-top:2px; }
+  header .contact{ margin-top:10px; font-size:12.5px; color:var(--gray); display:flex; flex-wrap:wrap; justify-content:center; gap:6px 14px; }
+  header .contact span::before{ content:"•"; margin-left:6px; color:var(--line); }
+  header .contact span:first-child::before{ content:""; margin:0; }
+  section{ margin-bottom:20px; }
+  h2{ font-size:15px; font-weight:800; color:var(--navy); padding-bottom:4px; border-bottom:1.5px solid var(--line); margin-bottom:10px; position:relative; padding-right:12px; }
+  h2::before{ content:""; position:absolute; right:0; top:4px; width:5px; height:14px; background:var(--navy); border-radius:2px; }
+  p.summary{ text-align:justify; font-size:13.5px; }
+  .edu-item{ display:flex; justify-content:space-between; align-items:baseline; padding:5px 0; border-bottom:1px dashed var(--line); }
+  .edu-item:last-child{ border-bottom:none; }
+  .edu-item .degree{ font-weight:700; color:#222; }
+  .edu-item .uni{ color:var(--gray); font-size:12.5px; }
+  .edu-item .year{ font-size:12.5px; color:var(--navy-light); font-weight:600; white-space:nowrap; }
+  .job{ margin-bottom:14px; } .job:last-child{ margin-bottom:0; }
+  .job-head{ display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:4px; }
+  .job-title{ font-weight:800; color:#1a1a1a; font-size:13.5px; }
+  .job-date{ font-size:12px; color:#fff; background:var(--navy-light); padding:1px 10px; border-radius:20px; white-space:nowrap; }
+  .job-company{ font-size:12.5px; color:var(--navy); font-weight:600; margin-bottom:4px; }
+  ul.duties{ list-style:none; padding-right:16px; font-size:13px; }
+  ul.duties li{ position:relative; padding-right:14px; margin-bottom:2px; }
+  ul.duties li::before{ content:""; position:absolute; right:0; top:9px; width:6px; height:6px; background:var(--navy-light); border-radius:50%; }
+  .skill-row{ display:flex; gap:8px; margin-bottom:8px; font-size:13px; }
+  .skill-label{ font-weight:700; color:var(--navy); white-space:nowrap; min-width:62px; }
+  .tags{ display:flex; flex-wrap:wrap; gap:6px; }
+  .tag{ background:var(--bg-soft); border:1px solid var(--line); color:#333; padding:2px 10px; border-radius:6px; font-size:12px; }
+  .cert-list{ list-style:none; padding-right:16px; font-size:13px; }
+  .cert-list li{ position:relative; padding-right:14px; margin-bottom:3px; }
+  .cert-list li::before{ content:"✓"; position:absolute; right:0; color:var(--navy-light); font-weight:bold; }
+  .lang-row{ display:flex; justify-content:space-between; font-size:13px; padding:3px 0; }
+  .lang-row .level{ color:var(--gray); }
+  @media print{
+    @page{ size:A4; margin:14mm 16mm; }
+    body{ background:#fff; padding:0; font-size:12.5px; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    .page{ max-width:none; margin:0; padding:0; box-shadow:none; border-radius:0; }
+    header h1{ font-size:23px; }
+    .avatar{ width:100px; height:100px; margin-bottom:8px; }
+    section{ margin-bottom:14px; page-break-inside:avoid; }
+    .job{ page-break-inside:avoid; }
+    h2{ page-break-after:avoid; }
+    .job-date{ background:var(--navy-light) !important; }
+  }
+  @media (max-width:600px){
+    .page{ padding:24px 18px; }
+    .edu-item{ flex-direction:column; gap:2px; }
+    .job-head{ flex-direction:column; }
+    .avatar{ width:96px; height:96px; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <!-- عکس در کنار فایل HTML و با نام profile.jpg -->
+      <img src="profile.jpg" alt="عکس شهریار شمسی" class="avatar">
+
+      <h1>شهریار شمسی</h1>
+      <div class="role">مهندس نرم‌افزار | متخصص شبکه و برنامه‌نویسی</div>
+      <div class="contact">
+        <span>تهران</span>
+        <span>۰۹۱۲۵۵۷۵۷۲۷</span>
+        <span>۰۲۱۲۲۹۶۴۶۶۳</span>
+        <span>shahriar.shams2009@gmail.com</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>خلاصه حرفه‌ای</h2>
+      <p class="summary">
+        مهندس کامپیوتر با بیش از ۲۰ سال سابقه برنامه‌نویسی و بیش از ۱۸ سال تجربه در حوزه شبکه،
+        سخت‌افزار و نرم‌افزار در محیط‌های سازمانی و صنعتی. دارای کارشناسی ارشد مهندسی نرم‌افزار
+        از دانشگاه شهید بهشتی و کارشناسی مهندسی کامپیوتر از دانشگاه پیام نور. مسلط به برنامه‌نویسی
+        تحت DOS با FoxPro، پایگاه‌داده، SQL Server و امنیت سایبری (DDOS).
+      </p>
+    </section>
+
+    <section>
+      <h2>تحصیلات</h2>
+      <div class="edu-item">
+        <div>
+          <div class="degree">کارشناسی ارشد مهندسی نرم‌افزار</div>
+          <div class="uni">دانشگاه شهید بهشتی</div>
+        </div>
+        <div class="year">۱۴۰۲-۱۴۰۰</div>
+      </div>
+      <div class="edu-item">
+        <div>
+          <div class="degree">کارشناسی مهندسی کامپیوتر</div>
+          <div class="uni">دانشگاه پیام نور</div>
+        </div>
+        <div class="year">۱۳۹۶ – ۱۴۰۰</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>سوابق شغلی</h2>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">مسئول شبکه، اینترنت، سخت‌افزار و نرم‌افزار</div>
+          <div class="job-date">دی ۱۳۸۵ – تاکنون</div>
+        </div>
+        <div class="job-company">معاونت سیاست‌گذاری اقتصادی، وزارت امور اقتصادی و دارایی</div>
+        <ul class="duties">
+          <li>مدیریت و نگهداری شبکه سازمانی و اتصال اینترنت</li>
+          <li>نصب، پیکربندی و عیب‌یابی سخت‌افزار و نرم‌افزار</li>
+          <li>پشتیبانی فنی کاربران و رفع مشکلات سیستمی</li>
+          <li>نظارت بر امنیت شبکه و پشتیبان‌گیری اطلاعات</li>
+          <li>هماهنگی با واحدهای فناوری اطلاعات برای به‌روزرسانی زیرساخت‌ها</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">برنامه‌نویس</div>
+          <div class="job-date">شهریور ۱۳۷۴ – شهریور ۱۳۸۵</div>
+        </div>
+        <div class="job-company">مرکز تحقیقات الکترونیک و کامپیوتر دانشگاه</div>
+        <ul class="duties">
+          <li>طراحی و توسعه نرم‌افزارهای کاربردی</li>
+          <li>تحلیل نیازمندی‌ها و پیاده‌سازی راه‌حل‌های نرم‌افزاری</li>
+          <li>نگهداری و بهبود سیستم‌های موجود</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">مسئول نرم‌افزاری</div>
+          <div class="job-date">خرداد ۱۳۷۰ – شهریور ۱۳۷۴</div>
+        </div>
+        <div class="job-company">شرکت صنعتی پایپوش</div>
+        <ul class="duties">
+          <li>مدیریت و توسعه سیستم‌های نرم‌افزاری شرکت</li>
+          <li>پشتیبانی نرم‌افزاری واحدهای صنعتی</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-head">
+          <div class="job-title">برنامه‌نویس</div>
+          <div class="job-date">اسفند ۱۳۶۸ – خرداد ۱۳۷۰</div>
+        </div>
+        <div class="job-company">شرکت نرم‌افزاری گستره نگار</div>
+        <ul class="duties">
+          <li>توسعه نرم‌افزار تحت DOS با FoxPro</li>
+          <li>کار با پایگاه‌داده</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>مهارت‌ها</h2>
+      <div class="skill-row">
+        <div class="skill-label">فنی:</div>
+        <div class="tags">
+          <span class="tag">برنامه‌نویسی تحت DOS با FoxPro</span>
+          <span class="tag">پایگاه‌داده (Database)</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">امنیت سایبری و مقابله با DDOS</span>
+          <span class="tag">مدیریت شبکه و اینترنت</span>
+          <span class="tag">نصب و پشتیبانی سخت‌افزار و نرم‌افزار</span>
+          <span class="tag">پشتیبان‌گیری اطلاعات</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <div class="skill-label">عمومی:</div>
+        <div class="tags">
+          <span class="tag">مدیریت و هماهنگی تیم فنی</span>
+          <span class="tag">حل مسئله و عیب‌یابی</span>
+          <span class="tag">کار تیمی و ارتباط سازمانی</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>دوره‌ها و گواهینامه‌ها</h2>
+      <ul class="cert-list">
+        <li>دوره SQL Server</li>
+        <li>دوره امنیت سایبری (DDOS)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>زبان‌ها</h2>
+      <div class="lang-row"><span>فارسی</span><span class="level">زبان مادری</span></div>
+      <div class="lang-row"><span>انگلیسی</span><span class="level">مسلط</span></div>
+    </section>
+
+  </div>
+</body>
+</html>
